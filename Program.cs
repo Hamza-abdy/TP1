@@ -22,11 +22,11 @@ class Program
         Console.WriteLine($"Quotient = {quotient}");
         Console.WriteLine($"Reste = {reste}");
         if (a > b)
-            Console.WriteLine("a > b");
+            Console.WriteLine($"{a} > {b}");
         else if (a < b)
-            Console.WriteLine("a < b");
+            Console.WriteLine($"{a} < {b}");
         else
-            Console.WriteLine("a = b");
+            Console.WriteLine($"{a} = {b}");
             
         bool test= (a > 0) && (b > 0);
         Console.WriteLine($"L'expression : {test}");
